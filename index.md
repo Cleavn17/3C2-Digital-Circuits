@@ -178,7 +178,7 @@ I^{drift} = I^{drift}_n + I^{drift}_p \\
 = AEq(n\mu_n + p\mu_p)
 ```
 
-> NOTE: The above statements for drift current and current flux density is only valid for unifrom electron density inside a semiconductor.   
+> **Note**: The above statements for drift current and current flux density is only valid for unifrom electron density inside a semiconductor.   
 
 ### Different types
 
