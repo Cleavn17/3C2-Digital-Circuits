@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Circuits</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .note {
+            background-color: #f9f9f9;
+            border-left: 4px solid #ff9800;
+            padding: 10px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Digital Circuits</h1>
+    <ul>
+        <li>Read the question thoroughly.</li>
+        <li>Expected to get one guaranteed question on quantum circuits in the first question subsections.</li>
+        <li>Practice all the tutorials.</li>
+    </ul>
+
+    <h2>For Exam</h2>
+    <ul>
+        <li>Question 1a:
+            <ul>
+                <li>Will generally be cuboidal.</li>
+                <li>Normally in centimeters.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h1>Past Paper Analysis</h1>
+    <p><strong>(!)</strong> means it is repeated.</p>
+
+    <h2>2023-2024</h2>
+    <ul>
+        <li>Question 1
+            <ul>
+                <li>Sketch Diagram and find current (semiconductors).</li>
+                <li>CMOS to drive LED.</li>
+                <li>Solve BJT circuit to find load resistor <strong>(!)</strong>.</li>
+                <li>MOSFET question <strong>(!)</strong>.</li>
+                <li>CMOS logic to implement Boolean function.</li>
+            </ul>
+        </li>
+        <li>Question 2
+            <ul>
+                <li>BJT to drive LED (buffer circuit) <strong>(!)</strong>.</li>
+                <li>Design the circuit <strong>(!)</strong>.</li>
+            </ul>
+        </li>
+        <li>Question 3
+            <ul>
+                <li>Find the model of the MOSFET transistor and draw transfer characteristic graph <strong>(!)</strong>.</li>
+                <li>Find an expression for output voltage <strong>(!)</strong>.</li>
+                <li>Calculate power <strong>(!)</strong>.</li>
+            </ul>
+        </li>
+        <li>Question 4 <strong>(! but different values)</strong>
+            <ul>
+                <li>CMOS inverter, find the transfer characteristic <strong>(!)</strong>.</li>
+                <li>Relationship between channel width, steady-state current, then find power <strong>(!)</strong>.</li>
+                <li>Design a circuit to fit a description <strong>(!)</strong>.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>Law of Mass Action</h2>
+    <p><code>n<sub>o</sub>p<sub>o</sub> = n<sub>i</sub><sup>2</sup></code></p>
+    <p>Where:</p>
+    <ul>
+        <li><code>n<sub>o</sub></code> is the concentration of free electrons.</li>
+        <li><code>p<sub>o</sub></code> is the concentration of holes.</li>
+        <li><code>n<sub>i</sub></code> is the intrinsic carrier concentration.</li>
+    </ul>
+
+    <p>For intrinsic silicon at room temperature:</p>
+    <ul>
+        <li><code>n<sub>o</sub> = p<sub>o</sub> ≈ 1.5 × 10<sup>10</sup> cm<sup>-3</sup></code></li>
+        <li><code>n<sub>i</sub><sup>2</sup> ≈ 2.25 × 10<sup>20</sup></code></li>
+    </ul>
+
+    <h3>Law of Mass Action: N-type</h3>
+    <p><code>n<sub>o</sub>p<sub>o</sub> = n<sub>i</sub><sup>2</sup></code></p>
+    <p>For n-type silicon, the concentration of free electrons is much higher than for intrinsic silicon due to doping:</p>
+    <ul>
+        <li><code>n<sub>o</sub> = N<sub>d</sub> ≫ n<sub>i</sub></code></li>
+        <li><code>p<sub>o</sub> = n<sub>i</sub><sup>2</sup>/N<sub>d</sub> ≪ n<sub>i</sub></code></li>
+    </ul>
+    <p>If <code>N<sub>d</sub> ≈ 1 × 10<sup>13</sup> cm<sup>-3</sup></code> and <code>n<sub>i</sub> ≈ 1.5 × 10<sup>10</sup> cm<sup>-3</sup></code>, then <code>p<sub>o</sub></code> is approximately 700 times smaller than <code>n<sub>o</sub></code>.</p>
+
+    <h3>Quantifying the Electron Drift Current</h3>
+    <h4>Charge Flux Density (<code>J<sup>drift</sup></code>)</h4>
+    <p>The average charge flow per unit area in the direction of the field:</p>
+    <p><code>J<sup>drift</sup><sub>n</sub> = -nqμ<sub>n</sub>E</code></p>
+    <p>Where:</p>
+    <ul>
+        <li><code>n</code> is the density of electrons.</li>
+        <li><code>q</code> is the charge on the electron (negative).</li>
+        <li><code>μ<sub>n</sub></code> is the mobility of the electron.</li>
+        <li><code>E</code> is the electric field.</li>
+    </ul>
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Digital Circuits</title>
+    </head>
+    <body>
+        <h1>Digital Circuits</h1>
+        <ul>
+            <li>Read the question thoroughly</li>
+            <li>Expected to get one guaranteed question on quantum circuits in the first question subsections</li>
+            <li>Practise all the tutorials</li>
+        </ul>
+    
+        <p>For exam:</p>
+        <ul>
+            <li>Question 1a:
+                <ul>
+                    <li>Will generally be cuboidal</li>
+                    <li>Normally in centimeter</li>
+                </ul>
+            </li>
+        </ul>
+    
+        <h3>Quantifying the Hole Drift Current</h3>
+        <h4>Charge Flux Density (<code>J<sup>drift</sup></code>)</h4>
+        <p>The average charge flow per unit area in the direction on the field:</p>
+        <p>For holes:</p>
+        <p><code>J<sup>drift<sub>p</sub></sup> = pqµ<sub>p</sub>E</code></p>
+        <ul>
+            <li><code>p</code> is the density of holes</li>
+            <li><code>q</code> is the charge on the electron (positive)</li>
+            <li><code>µ<sub>p</sub></code> is the mobility of the hole</li>
+            <li><code>E</code> is the electric field</li>
+        </ul>
+    
+        <h3>Combined Drift Current</h3>
+        <p>The drift current (<code>I<sup>drift</sup></code>) is the charge flux density (<code>J<sup>drift</sup></code>) integrated over the area <strong>A</strong>.</p>
+        <p>The total drift current (<code>I<sup>drift</sup></code>) has two components:</p>
+        <ul>
+            <li>Net movement of electrons <code>I<sup>drift<sub>n</sub></sup></code></li>
+            <li>Net movement of holes <code>I<sup>drift<sub>p</sub></sup></code></li>
+        </ul>
+        <p>Moving in opposite directions:</p>
+        <pre>
+    I<sup>drift</sup> = I<sup>drift<sub>n</sub></sup> + I<sup>drift<sub>p</sub></sup>
+    = J<sup>drift<sub>n</sub></sup>A + J<sup>drift<sub>p</sub></sup>A
+    = -n(-q)(µ<sub>n</sub>)EA + p(q)(µ<sub>p</sub>)EA
+    = AEq(nµ<sub>n</sub> + pµ<sub>p</sub>)
+        </pre>
+        <blockquote>
+            <strong>Note:</strong> The above statements for drift current and current flux density are only valid for uniform electron density inside a semiconductor.
+        </blockquote>
+    
+        <h3>Different Types</h3>
+        <p>If it is mentioned that it is p-type or n-type, calculate the drift current normally. If it is intrinsic silicon, follow the below:</p>
+    
+        <h4>Intrinsic Silicon</h4>
+        <p><code>n = p = n<sub>i</sub><sup>2</sup></code></p>
+        <p>If it's not either, then use:</p>
+        <p><code>np = n<sub>i</sub><sup>2</sup></code></p>
+    </body>
+    </html>
+    
