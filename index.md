@@ -1,6 +1,6 @@
 # Digital Circuits
 
-* Read the quesiton thoroughly
+* Read the question thoroughly
 * Expected to get one guranteed quesiton on quantum circuits in the first question subsections
 * Practise all the tutorials
 
@@ -191,3 +191,5 @@ If it is intrinsic Silicon do the below
 n = p = $n_{i}^{2}$
 
 If its not either then just do  
+
+np = $n_{i}^{2}$
